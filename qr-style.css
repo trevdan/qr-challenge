@@ -1,0 +1,41 @@
+body {
+    display: block-inline;
+    background-color: hsl(212, 45%, 89%);
+
+}
+
+.container {
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+.rectangle {
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    position: absolute;
+     
+}
+
+.qr {
+    border-top-right-radius: 10px 30px;
+    border-top-left-radius: 10px 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 85%;
+    position: absolute;
+    margin: auto;
+    padding-top: 20px;
+    left: 0;
+    right: 0;
+}
+
+
+
