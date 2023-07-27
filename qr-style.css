@@ -1,41 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    display: block-inline;
     background-color: hsl(212, 45%, 89%);
 
 }
 
-.container {
-    position: relative;
-    border-radius: 10px;
-    
-}
-
 .rectangle {
-    border-radius: 10px;
-    height: 350px;
-    width: 250px;
+    height: 100%;
+    min-height: 385px;
+    width: 100%;
+    max-width: 250px;
     background-color: white;
-    left: 0;
-    right: 0;
+    border-radius: 15px;
     margin: auto;
-    margin-top: 10%;
-    margin-bottom: 1%;
-    position: absolute;
+    margin-top: 100px;
+    box-shadow: 2px 2px 20px #B2B2B2;
      
 }
 
 .qr {
-    border-top-right-radius: 10px 30px;
-    border-top-left-radius: 10px 30px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 85%;
-    position: absolute;
-    margin: auto;
-    padding-top: 20px;
-    left: 0;
-    right: 0;
+    border-radius: 4%;
+    width: 100%;
+    max-width: 230px;
+    margin: 4% 4% auto;
 }
+
+.attribution {
+    margin: 10%;
+}
+
+h1 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 20px;
+    color: hsl(220, 15%, 55%);
+}
+
 
 
 
