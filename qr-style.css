@@ -7,30 +7,29 @@ body {
 
 }
 
-.flexbox {
+.center-contents {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.rectangle {
+.qr-card {
     height: 100%;
-    min-height: 24rem;
     width: 100%;
     max-width: 17rem;
     background-color: white;
     border-radius: 15px;
     margin: auto;
     box-shadow: 2px 2px 20px #B2B2B2;
-    padding: 0.8%;
+    padding: 12px;
      
 }
 
 .qr {
-    border-radius: 4%;
+    border-radius: 10px;
     width: 100%;
-    max-width: 16.5rem;
+    max-width: 264px;
 }
 
 h1 {
@@ -38,7 +37,7 @@ h1 {
     font-weight: 700;
     font-size: 1.12rem;
     text-align: center;
-    padding: 10px 20px;
+    margin: 20px;
 }
 
 p {
@@ -46,7 +45,7 @@ p {
     font-weight: 400;
     font-size: 0.94rem;
     text-align: center;
-    padding: 5px 20px;
+    margin: 10px 20px 20px;
     color: hsl(220, 15%, 55%);
 }
 
