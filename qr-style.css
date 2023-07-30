@@ -7,11 +7,12 @@ body {
 
 }
 
-.center-contents {
+main {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 .qr-card {
